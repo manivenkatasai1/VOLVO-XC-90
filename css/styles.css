@@ -1,0 +1,48 @@
+body{
+  background-color: white;
+}
+.at {
+  text-shadow: 1px 1px #FF0000;
+  font-size:20px;
+  color:#DCD7C9;
+  border: 1px solid black;
+  background-color: white;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+.at {
+  background-image:url(https://tse3.mm.bing.net/th?id=OIP.uxUZGM5jXiitqXR6dH_WVAHaEK&pid=Api&P=0);
+  filter: blur(0.5px);
+-webkit-filter: blur(0.1px);
+}
+
+div{
+border: 5px solid black;
+background-color:white;
+
+}
+h1 {
+  color: black;
+  text-align: center;
+}
+
+
+img {
+  animation-duration: 5s;
+  animation-name: slidein;
+  margin: auto;
+}
+
+@keyframes slidein {
+  from {
+    margin-right:auto;
+    width:50%;
+  }
+
+  to {
+    margin-right:auto;
+    width:100%;
+  }
+}
